@@ -1,0 +1,10 @@
+This is a demonstration of how to use the Python module CFFI to expose C++ code to Python. You'll need the 
+Intel C++ compiler suite to run this demo.
+
+Start by running 
+$ make
+Then
+$ python testCFFI_build.py
+
+This builds the extension module _testCFFI.py which can then be imported into Python as shown in the demo
+script demo.py
